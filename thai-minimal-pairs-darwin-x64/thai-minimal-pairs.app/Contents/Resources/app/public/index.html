@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Thai Minimal Pairs Training</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Thai Minimal Pairs Training</h1>
+
+    <div id="controls">
+      <label for="categorySelect">Select Category: </label>
+      <select id="categorySelect"></select>
+
+      <label for="pairSelect">Select Pair: </label>
+      <select id="pairSelect"></select>
+    </div>
+
+    <div id="game">
+      <button id="playButton">Play Audio</button>
+      <div id="options">
+        <!-- data-option attributes identify the answer buttons -->
+        <button class="option" data-option="0"></button>
+        <button class="option" data-option="1"></button>
+      </div>
+      <div id="feedback"></div>
+      <button id="nextButton" style="display: none">Next</button>
+    </div>
+
+    <!-- Load the main JS module -->
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>

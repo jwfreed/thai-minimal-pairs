@@ -1,0 +1,15 @@
+{
+  "name": "thai-minimal-pairs",
+  "version": "1.0.0",
+  "description": "Thai Minimal Pairs Training App",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^XX.XX.X"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
