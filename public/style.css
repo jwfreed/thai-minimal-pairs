@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#controls {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 5px;
+}
+
+select {
+  margin-right: 20px;
+  padding: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+#feedback {
+  font-size: 2rem;
+  margin-top: 20px;
+}
