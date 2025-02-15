@@ -1,37 +1,32 @@
-// electron-main.js
-const { app, BrowserWindow } = require('electron');
 const path = require('path');
+const { app, BrowserWindow } = require('electron');
 
 function createWindow() {
-  // Create a new browser window.
-  const win = new BrowserWindow({
+  const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
-    webPreferences: {
-      // Depending on your needs you may enable or disable nodeIntegration and contextIsolation.
-      nodeIntegration: false,
-      contextIsolation: true,
-    },
+    // The "icon" option here is used primarily for Windows and Linux.
+    icon: path.join(__dirname, 'assets', 'icon.icns'),
   });
-
-  // Load your app's index.html from the public folder.
-  win.loadFile(path.join(__dirname, 'public', 'index.html'));
-
-  // Optionally, open the DevTools for debugging:
-  // win.webContents.openDevTools();
+  mainWindow.loadFile('public/index.html');
 }
 
 app.whenReady().then(() => {
+  if (process.platform === 'darwin') {
+    const iconPath = path.resolve(__dirname, 'assets', 'icon.icns');
+    console.log('Setting dock icon from:', iconPath);
+    try {
+      app.dock.setIcon(iconPath);
+    } catch (e) {
+      console.error('Error setting dock icon:', e);
+    }
+  }
   createWindow();
-
-  app.on('activate', () => {
-    // On macOS it’s common to re-create a window when the dock icon is clicked
-    // and there are no other windows open.
-    if (BrowserWindow.getAllWindows().length === 0) createWindow();
-  });
 });
 
 // Quit the app when all windows are closed (except on macOS).
 app.on('window-all-closed', () => {
-  if (process.platform !== 'darwin') app.quit();
+  if (process.platform !== 'darwin') {
+    app.quit();
+  }
 });
