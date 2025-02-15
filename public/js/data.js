@@ -8,13 +8,13 @@ export const categories = [
         pair: [
           {
             word: 'กา',
-            translit: 'kaa',
+            translit: '/kaː/',
             meaning: 'crow',
             audio: 'audio/กา.mp3',
           },
           {
             word: 'ขา',
-            translit: 'khaa',
+            translit: '/kʰaː/',
             meaning: 'leg',
             audio: 'audio/ขา.mp3',
           },
@@ -24,14 +24,14 @@ export const categories = [
         pair: [
           {
             word: 'ตา',
-            translit: 'taa',
+            translit: '/taː/',
             meaning: 'eye',
             audio: 'audio/ตา.mp3',
           },
           {
             word: 'ทา',
-            translit: 'thaa',
-            meaning: 'apply',
+            translit: '/tʰaː/',
+            meaning: 'apply (e.g., lotion)',
             audio: 'audio/ทา.mp3',
           },
         ],
@@ -40,13 +40,13 @@ export const categories = [
         pair: [
           {
             word: 'ปลา',
-            translit: 'plaa',
+            translit: '/plaː/',
             meaning: 'fish',
             audio: 'audio/ปลา.mp3',
           },
           {
             word: 'พลา',
-            translit: 'phlaa',
+            translit: '/pʰlaː/',
             meaning: 'group',
             audio: 'audio/พลา.mp3',
           },
@@ -56,13 +56,13 @@ export const categories = [
         pair: [
           {
             word: 'จาน',
-            translit: 'jaan',
+            translit: '/t͡ɕaːn/',
             meaning: 'plate',
             audio: 'audio/จาน.mp3',
           },
           {
             word: 'ชาน',
-            translit: 'chaan',
+            translit: '/t͡ɕʰaːn/',
             meaning: 'porch',
             audio: 'audio/ชาน.mp3',
           },
@@ -77,13 +77,13 @@ export const categories = [
         pair: [
           {
             word: 'บ้าน',
-            translit: 'baan',
+            translit: '/baːn/',
             meaning: 'house',
             audio: 'audio/บ้าน.mp3',
           },
           {
             word: 'ปาน',
-            translit: 'paan',
+            translit: '/paːn/',
             meaning: 'scar',
             audio: 'audio/ปาน.mp3',
           },
@@ -93,13 +93,13 @@ export const categories = [
         pair: [
           {
             word: 'ดี',
-            translit: 'dee',
+            translit: '/diː/',
             meaning: 'good',
             audio: 'audio/ดี.mp3',
           },
           {
             word: 'ตี',
-            translit: 'tee',
+            translit: '/tiː/',
             meaning: 'hit',
             audio: 'audio/ตี.mp3',
           },
@@ -109,13 +109,13 @@ export const categories = [
         pair: [
           {
             word: 'ฟ้า',
-            translit: 'fáa',
+            translit: '/faː/',
             meaning: 'sky',
             audio: 'audio/ฟ้า.mp3',
           },
           {
             word: 'พา',
-            translit: 'phaa',
+            translit: '/pʰaː/',
             meaning: 'to lead',
             audio: 'audio/พา.mp3',
           },
@@ -130,13 +130,13 @@ export const categories = [
         pair: [
           {
             word: 'ซี่',
-            translit: 'sîi',
+            translit: '/siː/',
             meaning: 'piece',
             audio: 'audio/ซี่.mp3',
           },
           {
             word: 'ชี้',
-            translit: 'chíi',
+            translit: '/t͡ɕʰiː/',
             meaning: 'point',
             audio: 'audio/ชี้.mp3',
           },
@@ -151,13 +151,13 @@ export const categories = [
         pair: [
           {
             word: 'มัน',
-            translit: 'man',
+            translit: '/man/',
             meaning: 'it',
             audio: 'audio/มัน.mp3',
           },
           {
             word: 'มาน',
-            translit: 'maan',
+            translit: '/maːn/',
             meaning: 'to come',
             audio: 'audio/มาน.mp3',
           },
@@ -167,13 +167,13 @@ export const categories = [
         pair: [
           {
             word: 'กิน',
-            translit: 'kin',
+            translit: '/kin/',
             meaning: 'eat',
             audio: 'audio/กิน.mp3',
           },
           {
             word: 'กีน',
-            translit: 'kiin',
+            translit: '/kiːn/',
             meaning: 'to crawl',
             audio: 'audio/กีน.mp3',
           },
@@ -183,13 +183,13 @@ export const categories = [
         pair: [
           {
             word: 'เละ',
-            translit: 'lé',
+            translit: '/lɛʔ/',
             meaning: 'messy',
             audio: 'audio/เละ.mp3',
           },
           {
             word: 'เล',
-            translit: 'lee',
+            translit: '/lɛː/',
             meaning: 'sail',
             audio: 'audio/เล.mp3',
           },
@@ -199,13 +199,13 @@ export const categories = [
         pair: [
           {
             word: 'ปุ',
-            translit: 'puʔ',
+            translit: '/puʔ/',
             meaning: 'dust',
             audio: 'audio/ปุ.mp3',
           },
           {
             word: 'ปู',
-            translit: 'puu',
+            translit: '/puː/',
             meaning: 'crab',
             audio: 'audio/ปู.mp3',
           },
@@ -215,13 +215,13 @@ export const categories = [
         pair: [
           {
             word: 'แคะ',
-            translit: 'khɛ́',
+            translit: '/kʰɛ/',
             meaning: 'pick (e.g., pick nose)',
             audio: 'audio/แคะ.mp3',
           },
           {
             word: 'แข',
-            translit: 'khɛɛ',
+            translit: '/kʰɛː/',
             meaning: 'strong',
             audio: 'audio/แข.mp3',
           },
@@ -236,13 +236,13 @@ export const categories = [
         pair: [
           {
             word: 'มือ',
-            translit: 'mɯɯ',
+            translit: '/mɯː/',
             meaning: 'hand',
             audio: 'audio/มือ.mp3',
           },
           {
             word: 'มุ',
-            translit: 'mu',
+            translit: '/mu/',
             meaning: 'pearl',
             audio: 'audio/มุ.mp3',
           },
@@ -252,13 +252,13 @@ export const categories = [
         pair: [
           {
             word: 'ตัว',
-            translit: 'tua',
+            translit: '/tuːa/',
             meaning: 'body',
             audio: 'audio/ตัว.mp3',
           },
           {
             word: 'ตา',
-            translit: 'taa',
+            translit: '/taː/',
             meaning: 'eye',
             audio: 'audio/ตา.mp3',
           },
@@ -273,13 +273,13 @@ export const categories = [
         pair: [
           {
             word: 'มา',
-            translit: 'maa',
+            translit: '/maː/',
             meaning: 'come',
-            audio: 'audio/มา.mp3',
+            audio: 'audio/มา_come.mp3',
           },
           {
             word: 'ม่า',
-            translit: 'mâa',
+            translit: '/mâː/',
             meaning: 'grandmother',
             audio: 'audio/ม่า.mp3',
           },
@@ -289,13 +289,13 @@ export const categories = [
         pair: [
           {
             word: 'ใหม่',
-            translit: 'mài',
+            translit: '/màj/',
             meaning: 'new',
             audio: 'audio/ใหม่.mp3',
           },
           {
             word: 'ไหม',
-            translit: 'mǎi',
+            translit: '/mǎj/',
             meaning: 'question particle',
             audio: 'audio/ไหม.mp3',
           },
@@ -305,13 +305,13 @@ export const categories = [
         pair: [
           {
             word: 'ข้าว',
-            translit: 'khâao',
+            translit: '/kʰâːw/',
             meaning: 'rice',
             audio: 'audio/ข้าว.mp3',
           },
           {
             word: 'ข่าว',
-            translit: 'khàao',
+            translit: '/kʰàːw/',
             meaning: 'news',
             audio: 'audio/ข่าว.mp3',
           },
@@ -321,13 +321,13 @@ export const categories = [
         pair: [
           {
             word: 'ป่า',
-            translit: 'pàa',
+            translit: '/pàː/',
             meaning: 'forest',
             audio: 'audio/ป่า.mp3',
           },
           {
             word: 'ปา',
-            translit: 'paa',
+            translit: '/paː/',
             meaning: 'throw',
             audio: 'audio/ปา.mp3',
           },
@@ -337,13 +337,13 @@ export const categories = [
         pair: [
           {
             word: 'ใบ',
-            translit: 'bai',
+            translit: '/baj/',
             meaning: 'leaf',
             audio: 'audio/ใบ.mp3',
           },
           {
             word: 'ใบ้',
-            translit: 'bâi',
+            translit: '/bâj/',
             meaning: 'mute',
             audio: 'audio/ใบ้.mp3',
           },
@@ -358,13 +358,13 @@ export const categories = [
         pair: [
           {
             word: 'วัน',
-            translit: 'wan',
+            translit: '/wan/',
             meaning: 'day',
             audio: 'audio/วัน.mp3',
           },
           {
             word: 'วัง',
-            translit: 'waŋ',
+            translit: '/waŋ/',
             meaning: 'palace',
             audio: 'audio/วัง.mp3',
           },
@@ -374,13 +374,13 @@ export const categories = [
         pair: [
           {
             word: 'บิน',
-            translit: 'bin',
+            translit: '/bin/',
             meaning: 'to fly',
             audio: 'audio/บิน.mp3',
           },
           {
             word: 'บิม',
-            translit: 'bim',
+            translit: '/bim/',
             meaning: '(contrast)',
             audio: 'audio/บิม.mp3',
           },
@@ -390,13 +390,13 @@ export const categories = [
         pair: [
           {
             word: 'หลอด',
-            translit: 'lɔ̀ɔt',
+            translit: '/lɔːt/',
             meaning: 'tube',
             audio: 'audio/หลอด.mp3',
           },
           {
             word: 'หลอบ',
-            translit: 'lɔ̀ɔb',
+            translit: '/lɔːb/',
             meaning: '(contrast)',
             audio: 'audio/หลอบ.mp3',
           },
@@ -406,13 +406,13 @@ export const categories = [
         pair: [
           {
             word: 'ปิด',
-            translit: 'pìt',
+            translit: '/pìt/',
             meaning: 'close',
             audio: 'audio/ปิด.mp3',
           },
           {
             word: 'ปิต',
-            translit: 'pìtʰ',
+            translit: '/pʰit/',
             meaning: 'emotional closure',
             audio: 'audio/ปิต.mp3',
           },
